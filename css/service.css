@@ -1,0 +1,83 @@
+/* Service Section */
+.services {
+    background: var(--bg-color);
+    color: white;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+    color: var(--text-color);
+
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.service-box {
+    background-color: var(--container-color);
+    color: var(--containerText-color);
+    height: 250px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
+}
+
+.service-box:hover {
+    /* background: rgb(54, 54, 54); */
+
+    color: var(--main-color);
+
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(98, 98, 98, 0.3);
+    /* Add shadow effect */
+}
+
+.service-box .service-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5em;
+}
+
+.service-box .service-info i {
+    font-size: 3rem;
+    text-align: center;
+    max-height: 200px;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+
+    color: var(--main-color);
+}
+
+
+.service-info h4 {
+    font-size: 18px;
+    font-weight: 1500;
+    margin-bottom: 1rem;
+}
+/* 
+.service-info h4:hover {
+    box-shadow: 0 0 10px rgba(98, 98, 98, 0.3);
+    ;
+} */
+
+
+.service-info p {
+    font-size: 13px;
+    font-weight: 500;
+    max-height: 100px;
+    margin: auto;
+    color: var(--containerText-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+    line-height: 18px;
+}

@@ -1,0 +1,36 @@
+ /* Contact Section */
+ .contact {
+     background-color: var(--second-bg-color);
+
+ }
+
+ .contact h2 {
+     max-width: 70rem;
+     color: white;
+
+ }
+
+ .contact form {
+     max-width: 70rem;
+     margin: 1rem auto;
+     text-align: center;
+     margin-bottom: 3rem;
+ }
+
+ .contact form .input-box input,
+ .contact form textarea {
+
+     width: 100%;
+     padding: 1.5rem;
+     font-size: 1.6rem;
+     color: var(--text-color);
+     background: var(--bg-color);
+     border-radius: 0.8rem;
+     border: 2px solid var(--main-color);
+     margin: 1rem 0;
+     resize: none;
+ }
+
+ .contact form .btn {
+     margin-top: 2rem;
+ }
